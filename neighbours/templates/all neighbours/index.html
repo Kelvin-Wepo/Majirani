@@ -21,7 +21,7 @@
                 {{ form.image }}{{ form.name }} {{ form.email }} {{ form.neighborhood }}
             </div>
             <div class="main-post-form-submit">
-                <button type="submit">Post</button>
+                <a href=" {% url 'post'%}"><button type="submit">Post</button></a>
                 
                 
             </div>
@@ -54,7 +54,7 @@
     <section class="main-extra">
         <article class="main-extra-prevention">
             <div class="main-extra-prevention-image">
-                <img src='/static/Images/crime prevetion.png' alt="">
+                <img src='/static/Images/crime prevetion.png' alt=""> 
             </div>
             <div class="main-extra-prevention-title">
                 <h2>Prevention</h2>
