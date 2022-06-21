@@ -1,5 +1,4 @@
 from django.test import TestCase
-from django.test import TestCase
 from neighbours.models import Business, Contact, User, Profile,  NeighbourHood
 
 # Create your tests here.
