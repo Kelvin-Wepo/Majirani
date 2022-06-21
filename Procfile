@@ -1,2 +1,1 @@
-
-web: gunicorn neighbourhood.wsgi
+web: gunicorn neighbourhood.wsgi:application --log-file - --log-level debug
