@@ -17,7 +17,7 @@ Django and Python Needed
 First you need to clone this project to your local machine 
 
 ```
-git clone https://github.com/Eugene-Oluoch/neighborly.git
+git clone https://github.com/Kelvin-Wepo/Majirani
 ```
 
 ### Installing
